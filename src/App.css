@@ -7,24 +7,22 @@ div.App {
   justify-content: space-between;
 }
 .op1 {
-  width: 10px;
+  width: 40px;
   display: inline-block;
   background-color: red;
   font-size: 3vw;
   text-align: center;
   padding: 5vw 0vw 5vw 0vw;
-  min-width: 5vw;
 }
 
 .op2 {
   width: 40px;
   background-color: green;
   display: inline-block;
-  margin-right: 0vw;
+  margin-right: px;
   font-size: 3vw;
   text-align: center;
   padding: 5vw 0vw 5vw 0vw;
-  min-width: 5vw;
 }
 .ctnFlex {
   display: flex;
