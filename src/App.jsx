@@ -24,3 +24,4 @@ export default App;
 
 /* melhorar a rota de notfound,pesquisar no youtube se tem como
  colocar 404 */
+/* tbm ver como autentificar  */
