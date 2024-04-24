@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import './App.css';
+import '../../styles/bingo.css';
 
-function App() {
+function Bingo() {
   const [vermelhos, setVermelhos] = useState({});
   const [ultimaDivClicada, setUltimaDivClicada] = useState('');
 
@@ -54,4 +54,4 @@ function App() {
   );
 }
 
-export default App;
+export default Bingo;
