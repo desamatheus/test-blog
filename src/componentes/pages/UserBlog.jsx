@@ -2,11 +2,8 @@ import React from 'react';
 import logo from '../../images/logo.svg';
 import user1 from '../../images/placeholders/user-1.jpg';
 import post1 from '../../images/placeholders/post-1.jpg';
-import user2 from '../../images/placeholders/user-2.jpg';
 import post2 from '../../images/placeholders/post-2.jpg';
 import post3 from '../../images/placeholders/post-3.jpg';
-
-import user3 from '../../images/placeholders/user-3.jpg';
 
 export default function UserBlog() {
   return (
