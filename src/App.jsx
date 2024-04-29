@@ -6,7 +6,7 @@ import Users from './componentes/pages/Users';
 import UserBlog from './componentes/pages/UserBlog';
 import PostForm from './componentes/pages/PostForm';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Bingo from './componentes/pages/Bingo';
+import Bingo2 from './componentes/pages/Bingo2';
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
         <Route path='/users/:userId' element={<UserBlog />} />
         <Route path='/users/:userId/post' element={<PostForm />} />
         <Route path='*' element={<h1>Not found </h1>} />
-        <Route path='/bingo' element={<Bingo />} />
+        <Route path='/bingo' element={<Bingo2 />} />
       </Routes>
     </BrowserRouter>
   );
